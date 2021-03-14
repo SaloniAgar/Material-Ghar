@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sem1.Sem1SubjectsActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Select Subject"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text1">
+
+        <GridLayout
+            android:id="@+id/gl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="3"
+            android:columnCount="2"
+            android:minWidth="400dp"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/btnCpp"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_margin="25dp"
+                android:text="Object oriented programming with c++ (CS235)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:background="#050B32"/>
+
+            <Button
+                android:id="@+id/btnDLD"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_margin="25dp"
+                android:text="Digital Logic design (Cs236)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:background="#050B32"/>
+
+            <Button
+                android:id="@+id/btnEC"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_margin="25dp"
+                android:text="Analog Electronics"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:background="#050B32"/>
+
+            <Button
+                android:id="@+id/btnEMI"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_margin="25dp"
+                android:text="Electrical Measurement and Instrument"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:background="#050B32"/>
+
+            <Button
+                android:id="@+id/btnMaths"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_margin="25dp"
+                android:text="Mathematics III"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:background="#050B32"/>
+
+            <Button
+                android:id="@+id/btnHV"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_margin="25dp"
+                android:text="Human Values"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:background="#050B32"/>
+
+        </GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

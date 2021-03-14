@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context=".sem1.Sem1Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="Select Material"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBooksSem1"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="Books"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:background="#050B32"/>
+
+    <Button
+        android:id="@+id/btnPapersSem1"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="Papers"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:background="#050B32"/>
+
+</LinearLayout>

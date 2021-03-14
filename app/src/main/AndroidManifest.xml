@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.materialghar">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_my_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_my_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".sem1.Sem1PaperPdfActivity"/>
+        <activity android:name=".sem2.Sem2SubjectsActivity" />
+        <activity android:name=".sem1.Sem1PapersActivity" />
+        <activity android:name=".sem1.Sem1BookActivity" />
+        <activity android:name=".sem1.Sem1SubjectsActivity" />
+        <activity android:name=".sem2.Sem2Activity" />
+        <activity android:name=".sem1.Sem1Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

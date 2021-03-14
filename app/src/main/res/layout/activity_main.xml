@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="All material for CSE 2nd year are available  here."
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="80dp"
+        android:text="Select semester"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_below="@+id/txt1"/>
+
+    <GridLayout
+        android:id="@+id/glSem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt2"
+        android:layout_margin="6dp"
+        android:rowCount="1"
+        android:columnCount="2"
+        android:minHeight="250dp"
+        android:minWidth="400dp">
+
+        <Button
+            android:id="@+id/btnSem1"
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:layout_margin="25dp"
+            android:text="1st Sem"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:background="#050B32"/>
+
+        <Button
+            android:id="@+id/btnSem2"
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:layout_margin="25dp"
+            android:text="2nd Sem"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:background="#050B32"/>
+
+    </GridLayout>
+
+
+</RelativeLayout>
